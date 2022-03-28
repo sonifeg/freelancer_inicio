@@ -34,9 +34,10 @@ width: 120rem;
 }
 
 .principalNav{
-width: inherit;
+/* width: inherit; */
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
+flex-direction: column;
 }
 
 .principalNav a{
