@@ -1,130 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="normalize.css" as="style">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" href="normalize.css" as="style" />
     <link rel="stylesheet" href="normalize.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,700;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">
-    <link rel="preload" href="style.css" as="style">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,700;1,300;1,400;1,500;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" href="style.css" as="style" />
     <link rel="stylesheet" href="style.css" />
     <title>Freelancer designer</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Sonia Felizardo <span>Freelancer</span></h1>
+      <h1>Sonia Felizardo <span>Freelancer</span></h1>
     </header>
 
     <div class="navBg">
-        <nav class="principalNav container">
-            <a href="#">Home</a>
-            <a href="#">About me</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-        </nav>
+      <nav class="principalNav container">
+        <a href="#">Home</a>
+        <a href="#">About me</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </nav>
     </div>
 
-
-    <section>
+    <section class="devPic">
+      <div class="containerDevPic">
         <h2>Freelance Front-end Developer</h2>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-map-pin"
+            width="80"
+            height="80"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#ffec00"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <circle cx="12" cy="11" r="3" />
-            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-          </svg>   
-        <p>Guadalajara, Jalisco</p>
-        <a href="#">Contact Me</a>
+            <path
+              d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"
+            />
+          </svg>
+          Guadalajara, Jalisco
+        </p>
+        <a class="button" href="#">Contact Me</a>
+      </div>
     </section>
 
-    <main>
-        <h2>Services</h2>
+    <main class="container2 shadow">
+      <h2>Services</h2>
 
-        <section>
-            <h3>Web Dseign</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <polyline points="7 8 3 12 7 16" />
-                <polyline points="17 8 21 12 17 16" />
-                <line x1="14" y1="4" x2="10" y2="20" />
-              </svg>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Natus a ut blanditiis fugiat pariatur voluptatem! Est beatae architecto unde.
-            </p>
+      <div class="services">
+        <section class="service">
+          <h3>Web Design</h3>
+          <div class="icons">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-code"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#000000"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <polyline points="7 8 3 12 7 16" />
+              <polyline points="17 8 21 12 17 16" />
+              <line x1="14" y1="4" x2="10" y2="20" />
+            </svg>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus a ut
+            blanditiis fugiat pariatur voluptatem! Est beatae architecto unde.
+          </p>
         </section>
-        <section>
-            <h3>Mobile App</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <line x1="4" y1="10" x2="4" y2="16" />
-                <line x1="20" y1="10" x2="20" y2="16" />
-                <path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" />
-                <line x1="8" y1="3" x2="9" y2="5" />
-                <line x1="16" y1="3" x2="15" y2="5" />
-                <line x1="9" y1="18" x2="9" y2="21" />
-                <line x1="15" y1="18" x2="15" y2="21" />
-              </svg>
+        <section class="service">
+          <h3>Mobile App</h3>
+          <div class="icons">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-android"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#000000"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line x1="4" y1="10" x2="4" y2="16" />
+              <line x1="20" y1="10" x2="20" y2="16" />
+              <path
+                d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0"
+              />
+              <line x1="8" y1="3" x2="9" y2="5" />
+              <line x1="16" y1="3" x2="15" y2="5" />
+              <line x1="9" y1="18" x2="9" y2="21" />
+              <line x1="15" y1="18" x2="15" y2="21" />
+            </svg>
 
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-apple" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M9 7c-3 0 -4 3 -4 5.5c0 3 2 7.5 4 7.5c1.088 -.046 1.679 -.5 3 -.5c1.312 0 1.5 .5 3 .5s4 -3 4 -5c-.028 -.01 -2.472 -.403 -2.5 -3c-.019 -2.17 2.416 -2.954 2.5 -3c-1.023 -1.492 -2.951 -1.963 -3.5 -2c-1.433 -.111 -2.83 1 -3.5 1c-.68 0 -1.9 -1 -3 -1z" />
-                <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
-              </svg>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Natus a ut blanditiis fugiat pariatur voluptatem! Est beatae architecto unde.
-            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-apple"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#000000"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M9 7c-3 0 -4 3 -4 5.5c0 3 2 7.5 4 7.5c1.088 -.046 1.679 -.5 3 -.5c1.312 0 1.5 .5 3 .5s4 -3 4 -5c-.028 -.01 -2.472 -.403 -2.5 -3c-.019 -2.17 2.416 -2.954 2.5 -3c-1.023 -1.492 -2.951 -1.963 -3.5 -2c-1.433 -.111 -2.83 1 -3.5 1c-.68 0 -1.9 -1 -3 -1z"
+              />
+              <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
+            </svg>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus a ut
+            blanditiis fugiat pariatur voluptatem! Est beatae architecto unde.
+          </p>
         </section>
-        <section>
-            <h3>E-Commerce</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="3" y="5" width="18" height="14" rx="3" />
-                <line x1="3" y1="10" x2="21" y2="10" />
-                <line x1="7" y1="15" x2="7.01" y2="15" />
-                <line x1="11" y1="15" x2="13" y2="15" />
-              </svg>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Natus a ut blanditiis fugiat pariatur voluptatem! Est beatae architecto unde.
-            </p>
+        <section class="service">
+          <h3>E-Commerce</h3>
+          <div class="icons">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-credit-card"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#000000"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <rect x="3" y="5" width="18" height="14" rx="3" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+              <line x1="7" y1="15" x2="7.01" y2="15" />
+              <line x1="11" y1="15" x2="13" y2="15" />
+            </svg>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus a ut
+            blanditiis fugiat pariatur voluptatem! Est beatae architecto unde.
+          </p>
         </section>
-    </main>
-    
-    <section>
-        <h2>Contact</h2>
-        <form>
-            <fieldset>
-                <legend>Contact Me writing all the fields</legend>
-                <div>
-                    <label>Name:</label>
-                    <input type="text" placeholder="Your Name"/>
-                </div>
-                
-                <div>
-                    <label>Phone Number:</label>
-                    <input type="tel" placeholder="Your Phone Number"/>
-                </div>
-                
-                <div>
-                    <label>Email:</label>
-                    <input type="email" placeholder="Your Email"/>
-                </div>
-                
-                <div>
-                    <label>Message:</label>
-                    <textarea></textarea>
-                </div>
-                
-                <div>
-                    <input type="submit" value="Send">
-                </div>
-           
-            </fieldset>
+      </div>
+
+      <section>
+        <h2 id="textContact">Contact</h2>
+        <form class="formStyle">
+          <fieldset>
+            <legend>Contact Me writing all the fields</legend>
+            <div class="fieldContainer">
+              <div class="field">
+                <label>Name:</label>
+                <input class="inputText" type="text" placeholder="Your Name" />
+              </div>
+
+              <div class="field">
+                <label>Phone Number:</label>
+                <input
+                  class="inputText"
+                  type="tel"
+                  placeholder="Your Phone Number"
+                />
+              </div>
+
+              <div class="field">
+                <label>Email:</label>
+                <input
+                  class="inputText"
+                  type="email"
+                  placeholder="Your Email"
+                />
+              </div>
+
+              <div class="field">
+                <label>Message:</label>
+                <textarea class="inputText"></textarea>
+              </div>
+            </div>
+
+              <div class="rightAlign flex">
+                <input class="button w100" id="btnForm" type="submit" value="Send" />
+              </div>
+            
+          </fieldset>
         </form>
-    </section>
+      </section>
+    </main>
 
-    <footer>
-        <p>All rights reserve.Sonia Felizardo</p>
+    <footer class="footer">
+      <p>All rights reserve.Sonia Felizardo</p>
     </footer>
-   
-</body>
+  </body>
 </html>
